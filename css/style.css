@@ -1,3 +1,55 @@
-h1 {
-  color: pink;
+/* CSS for the weather info section */
+body {
+  margin: 0;
+  height: 100vh;
+  border: border-box;
+  background-image: url(https://t3.ftcdn.net/jpg/05/79/86/10/360_F_579861052_KjeAAbyaXOBY6JjxMEPBVJypp2KSb59v.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#app {
+  background-color: transparent; /* Semi-transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+#weatherInfo {
+  padding: 20px;
+  border-radius: 15px;
+  border: none;
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.75); /* Shadow effect */
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.75);
+  margin-top: 20px;
+  max-width: 400px;
+  animation: fadeIn 1s ease-in; /* Add fade-in animation */
+}
+
+.weatherDetail {
+  margin-bottom: 15px;
+  color: black;
+}
+
+.weatherLabel {
+  font-weight: bold;
+}
+
+.weatherValue {
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
