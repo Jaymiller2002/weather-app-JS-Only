@@ -149,4 +149,4 @@ function validateZipCode(zipCode) {
 }
 
 // Initialize the weather app
-initializeWeatherApp()
+initializeWeatherApp();
